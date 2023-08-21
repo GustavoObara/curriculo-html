@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #525659;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #000; */ /*linha da tabela*/
+}
+
+th, td {
+    /* border: 1px solid #000; */ /*linha da tabela*/
+    padding: 8px;
+    vertical-align: top;
+}
+
+h1, h4 {
+    text-align: left;
+}
+
+h3{
+    margin: 0%;
+    text-align: center;
+    color: #fffffe;
+}
+
+p{
+    margin: 0%;
+    text-align: justify;
+}
+
+.curriculo {
+    width: 800px; /* Largura da pag */
+    padding: 10px;
+    background-color: #fff; /*cor da folha*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.th_foto{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.foto {
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.topo-curriculo th {
+    text-align: center;
+}
+
+.tfoot td {
+    text-align: center;
+}
+.bg_primary {
+    background: #bfbfbf;
+}
+
+.bg_secondary {
+    background: #767171;
+}
